@@ -1,0 +1,196 @@
+
+@media (min-width: 768px){
+    header{
+        font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: fixed;
+        width: 100vw;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* z-index define que elemento esta mas superficial a otro */
+        z-index: 2;
+        background-color: #eef4ed;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 66);
+        
+    }
+    .logo{
+        margin-left: 20px;
+        max-width: 150px;
+        height: 25px;
+        
+    }
+    .cont-ul{
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-items: center;
+        margin-top: -40px;
+        position: absolute;
+    }
+    li,
+    li >a,
+    .ul-third >li >a{
+        font-weight: bolder;
+        list-style: none;
+        cursor: pointer;
+        padding: 20px;
+        transition: all 0.3s ease 0s;
+        text-decoration: none;
+        color: black  
+    }
+    
+    li:hover{
+        background-color:  #FD5657;
+        color: rgb(238, 244, 237);
+        
+    }
+    li >a:hover{
+        color: rgb(238, 244, 237);
+    }
+    .ul-second{
+        position: absolute;
+        display: none;
+        transform: translateY(20px);
+    }
+    .ul-second >li{
+        border-bottom: solid 1px white;
+        text-align: center;
+        background-color: black;;
+        color: rgb(238, 244, 237);
+        padding: 20px;
+        width: 190px;
+        transform: translateX(-20px);
+    }
+    .ul-second >li >a{
+        text-align: center;
+        color: rgb(238, 244, 237);
+    }
+    .ul-second >li:hover{
+        background-color: #FFBD59;
+        color: black;
+    }
+    .ul-second>li>a:hover{
+        color: black;
+    }
+    .develop:hover > .ul-second{
+        display: block;
+    }
+    .ul-third{
+        position: absolute;
+        right: 0;
+        top: 0%;
+        transform: translateX(190px);
+        display: none;
+        color: rgb(238, 244, 237);
+        background-color:black;
+        text-align: center;
+    }
+    .ul-third >li{
+        border-bottom: solid 1px white;
+        padding: 20px;
+        color: rgb(238, 244, 237);
+    }
+    .ul-third >li >a{
+        
+        color: rgb(238, 244, 237);
+    }
+    .ul-third >li:hover{
+        background-color: #00B292
+    }
+    .front:hover > .ul-third{
+        display: block;
+    }
+.checkbtn{
+    font-size: 60px;
+    color: black;
+    float: right;
+    margin-right: 15px;
+}
+.checkbtn,
+#check{
+    display: none;
+}
+}
+
+
+/* CELULAR */
+
+
+@media (max-width: 767px){
+
+
+.Header{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.checkbtn{display: block;
+    font-size: 25px;
+padding: 15px 0 0 15px;}
+
+#check{display: none;}
+
+.logo{width: 150px;
+}
+.upperheader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.a,
+.develop,
+.front{text-decoration: none;
+    font-weight: 900;
+    font-size: large;
+}
+
+.cont-ul{
+    position: fixed;
+    padding-left: 5px;
+    background-color: black;
+    color: #FD5657;
+    height: 90vh;
+    line-height: 47px;
+    width: 100vw;
+    left: -200%;
+    transition: all .5s;
+    text-transform: uppercase;
+
+}
+.cont-ul a{
+    color: #FD5657;
+}
+
+.ul-second{
+    translate: 20px;
+    list-style: none;
+}
+
+
+.ul-third{
+    list-style: none;
+    translate: 40px;
+}
+
+.ul-second,
+.ul-second a,
+.back a,
+.front a{
+    color: #FFBD59;
+}
+.ul-third a{
+    color: #00B292;
+}
+#check:checked ~ .cont-ul{
+    left: 0%;
+}
+
+
+
+}
+
+

@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    background-color: #eef4ed;
+    color: black;
+    max-width: 1500px;
+}
+
+.celular>h1{color: black;}
+
+
+/* MENU CEL *//* MENU CEL *//* MENU CEL *//* MENU CEL */
+.header-cel{
+    display: flex;
+    width: 90%;
+    height: 100svh;
+}
+.logo-cel{
+    width: 20%;
+}
+.menu-cel{
+    width: 100%;
+    margin-top: 20px;
+   
+    background-color: black;
+    text-align: left;
+}
+.menu-cel h2{
+    background-color: #FD5657;
+    color: white ;
+    border-bottom: solid #FFBD59 1px;
+}
+.Obra-cel h2{
+    background-color: #FD5657;
+    color: white ;
+}
+.Obra-cel h3{
+    padding-left: 20px;
+    background-color: #FFBD59;
+    color: black;
+    border-bottom:  solid #00B292 1px;
+}
+.Obra-cel h4{
+    color: white;
+    background-color: #00B292;
+    padding-left: 45px;
+    border-bottom:  solid #FD5657 1px;
+}
+.menu-cel a{
+    text-decoration: none;
+    color: white;
+}
+
+/* BODY DESKTOP BODY DESKTOP BODY DESKTOP BODY DESKTOP BODY DESKTOP BODY DESKTOP */
+.Titulo-ppal{
+    margin-top: 30px;
+    text-align: center;
+    font-size: x-large;
+    box-shadow: 0 8px 20px 0 black;
+}
+.Obras{display: block;}
+
+.cada-obra{display: block;
+    box-shadow: 0 8px 20px 0 black;
+}
+
+.cada-obra-title{
+    border-bottom: solid #FD5657 2px;
+    padding-left: 0px;
+}
+
+.cada-obra-body{
+    display: flex;
+    width: 95%;}
+
+.cada-obra-afiche{
+    width: 30%;
+    text-align: center;
+}
+
+
+.cada-obra-afiche img{width: 70%;
+padding: 5px 0 5px 0;
+border-radius: 5%;}
+
+
+.cada-obra-text{
+    width: 70%;
+    display: block;
+}
+
+.cada-obra-text-resumen{
+    padding: 10px 5px 5px 5px;
+    text-align: justify;
+    font-size: large;
+}
+.cada-obra-text-video,
+.cada-obra-text-link{
+    display: flex;
+}
+.cada-obra-text-link-txt{
+    width: 25%;
+    font-size: large;
+    font-weight: 900;
+}
+.cada-obra-text-link-link{
+    width: 75%;
+}
+
+.cada-obra-text-link-link a img{
+    border-radius: 10px;
+}
+
+.cada-obra-text-link-link a img:hover{
+    box-shadow: 0 8px 20px 0 black;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+/* FOOTER REDES */
+.footer-sup-redes{
+    padding: 10px 10px 0 0;
+    font-family: 'ionicons';
+    font-size: 40px;
+    color: #ebf3e9;
+    text-decoration: none;
+    display:inline-block ;
+}
+.footer-sup{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px #FFBD59;
+}
+
+.footer-sup-redes a{
+    vertical-align: middle;
+    padding: 4px;
+    background-color: black;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.footer-sup-redes >.Facebook::after{
+    color: #ebf3e9;
+    background-color: black;
+    padding: 5px;
+    content: '\f236';
+    border-radius: 50px;
+}
+
+.footer-sup-redes >.Instagram::after{
+    color: #ebf3e9;
+    background-color: black;
+    padding: 5px;
+    content: '\f23e';
+    border-radius: 50px;
+}
+
+.footer-sup-redes >.Mail::after{
+    color: #ebf3e9;
+    background-color: black;
+    padding: 5px;
+    content: '\f145';
+    border-radius: 50px;
+}
+
+@media (min-width: 768px){
+    .celular{display: none;}
+}
+
+@media (max-width: 767px){
+    .desktop{display: none;}
+    .Body{
+        margin-top: -115%;
+        width: 95vw;
+        padding-left: 1%;
+    }
+    
+    .cada-obra-body{
+        display: block;
+        padding-left: 5%;
+        align-content: center;
+        width: 95vw;
+    }
+    .cada-obra-text-link-txt{
+        width: 45%;
+        font-size: large;
+        font-weight: 900;
+    }
+    .cada-obra-text-link-link{
+        width: 55%;
+        padding: 0 0 10px 10px;
+    }
+    
+    .cada-obra-text{
+        width: 95%;
+        display: block;
+    }
+    
+    .cada-obra-afiche{
+        width: 95%;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .cada-obra-afiche img{
+        width: 50%;
+        border-radius: 5%;
+    }
+
+    .footer-sup-redes{
+        padding: 10px 10px 0 0;
+        font-family: 'ionicons';
+        font-size: 40px;
+        color: #ebf3e9;
+        text-decoration: none;
+         width: 50%;
+    }
+    .footer-sup-img{
+        width: 50%;
+    }
+    .footer-sup{
+        display: flex;
+        padding-bottom: 10px;
+    }
+
+}
+
+h4{color: black;
+padding-left: 10px;}

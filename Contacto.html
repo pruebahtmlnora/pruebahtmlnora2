@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nora Z. WIlson - Contacto</title>
+   <link rel="stylesheet" href="Contacto.css">
+   <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!-- HEADER -->
+   <header>
+      <div class="resolucion">
+         <div class="Header">
+          <div class="upperheader">
+                <a href="index.html" id="logo"><img src="Imagenes/logo2.png" alt="Nora Z. Wilson" class="logo"></a>
+          </div>
+              <input type="checkbox" id="check">
+              <label for="check" class="checkbtn">
+                   <i class="fa-solid fa-bars"></i>
+              </label>
+            <ul class="cont-ul">
+               <li><a class="a" href="Biografia.html">Sobre mí</a></li>
+               <li class="develop"> Obra
+                  <ul class="ul-second">
+                     <li class="back"><a class="a" href="Frutos.html">Los Frutos Malditos</a></li>
+                     <li class="front">Crónicas de la Magia del Mundo
+                        <ul class="ul-third">
+                           <li><a class="a" href="Lobos.html"> La rebelión de los lobos</a></li>
+                           <li><a class="a" href="Clanes.html">La rebelión de los clanes</a></li>
+                           <li><a class="a" href="Almas.html">La rebelión de las almas</a></li>
+                        </ul>
+                     </li>
+                     <li><a class="a" href="Teatro.html">Teatro</a></li>
+                     <li><a class="a" href="Cuentos.html">Cuentos</a></li>
+                  </ul>
+               </li>
+               <li><a class="a" href="Cursos.html">Cursos y talleres</a></li>
+               <li><a class="a" href="Correcciones.html">Correcciones y mentorías</a></li>
+               <li><a class="a" href="Contacto.html">Contacto</a></li> 
+            </ul>
+         </div>
+      </div>
+   </header>
+  
+   <!-- FIN HEADER -->
+   <br><br><br>
+
+     <div class="body">
+      <h1>Contacto</h1><br><br>
+      <div class="body-contacto">
+         <div class="foto-contacto">
+            <img src="Imagenes/Contacto.jpg" alt="">
+         </div>
+         <div class="contactos">
+            <div class="redes">
+               <div class="contactos-p">
+                  <h2>Cómo contactarme</h2>
+               </div>
+               <div class="misredes">
+                  <a href="https://www.facebook.com/NoraZicovichWilson" target="_blank" class="Facebook"></a>
+                  <a href="https://www.instagram.com/norazwilson?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="Instagram"></a>
+                  <a href="mailto:norazetawilson@gmail.com?Subject=La%20rebelion%20de%20los%20Clanes" class="Mail"></a>
+                  <br>
+               </div>
+            </div><br><br>
+         <div class="inscripciones">
+            <div class="inscripciones-p">
+               <h2>Inscribirme a:</h2>
+               <h4>-Cursos y talleres-</h4>
+               <h4>-Correcciones y mentorías-</h4>
+            </div>
+            <div class="inscripciones-form">
+               <!-- Para la dir del formulario:
+               https://web3forms.com/     selecciono icono stml (el que parece un 5 naranja). Pongo mail y despues create acces key
+               llega mail con acces key. Vuelta en la pagina, punto 2 esta la ruta para el action. Volver al sitio. Mas abajo hay un input que dice hidden "YOUR ACCES KEY.... copiar eso como el primer input y reemplazar el texto "Your acces key" por la clave que recibi por mail-->
+               <form action="https://api.web3forms.com/submit" method="POST">
+                  <input type="hidden" name="access_key" value="4d46ca8f-721f-4c82-84ec-0272958deb86">
+                  <p>Nombre y Apellido:
+                     <input type="text" name="NyA" id="">
+                  </p>
+                  <p>E-mail:
+                     <input type="email" name="mail" id="">
+                  </p>
+                  <p>Quiero inscribirme a: 
+                     <select name="curso-correcion" id="">
+                        <option value="Curso">Curso</option>
+                        <option value="Taller">Taller</option>
+                        <option value="Correcion">Corrección</option>
+                        <option value="Mentoria">Mentoría</option>
+                     </select>
+                  </p>
+                  <p>Comentario:
+                     <br><textarea name="Comentario" id="" cols="50" rows="10"></textarea>
+                  </p>
+                  <input type="submit" value="Enviar">
+               </form>
+               <br><br>
+            </div>
+
+         </div>
+      </div>
+   </div>
+         </div>
+      </div>
+</body>
+
+<!-- FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER -->
+<footer>
+   <div class="footer-sup">
+      <div class="footer-sup-img">
+          <img src="Imagenes/logo2.png" alt="" width="40%">
+      </div>
+      <div class="footer-sup-redes">
+          <a href="https://www.facebook.com/NoraZicovichWilson" target="_blank" class="Facebook"></a>
+          <a href="https://www.instagram.com/norazwilson?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="Instagram"></a>
+          <a href="mailto:norazetawilson@gmail.com?Subject=La%20rebelion%20de%20los%20Clanes" class="Mail"></a>
+      </div>
+  </div>
+
+   <div class="footer-inf">
+       <br><br>
+       <h4>Diseño Web: Fernando Z. Wilson - Sí, hermano de la autora. No, no me dedico a programación Web. Sí, lo hice de onda</h4>
+       <br><br>
+   </div>
+</footer>
+</html>
+
+</html>

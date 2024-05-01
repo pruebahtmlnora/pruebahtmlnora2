@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    background-color: #eef4ed;
+    color: black;
+    max-width: 1500px;
+}
+
+.celular>h1{color: black;}
+
+
+/* MENU CEL *//* MENU CEL *//* MENU CEL *//* MENU CEL */
+.header-cel{
+    display: flex;
+    width: 90%;
+    height: 100svh;
+}
+.logo-cel{
+    width: 20%;
+}
+.menu-cel{
+    width: 100%;
+    margin-top: 20px;
+   
+    background-color: black;
+    text-align: left;
+}
+.menu-cel h2{
+    background-color: #FD5657;
+    color: white ;
+    border-bottom: solid #FFBD59 1px;
+}
+.Obra-cel h2{
+    background-color: #FD5657;
+    color: white ;
+}
+.Obra-cel h3{
+    padding-left: 20px;
+    background-color: #FFBD59;
+    color: black;
+    border-bottom:  solid #00B292 1px;
+}
+.Obra-cel h4{
+    color: white;
+    background-color: #00B292;
+    padding-left: 45px;
+    border-bottom:  solid #FD5657 1px;
+}
+.menu-cel a{
+    text-decoration: none;
+    color: white;
+}
+
+/* BODY DESKTOP BODY DESKTOP BODY DESKTOP BODY DESKTOP BODY DESKTOP BODY DESKTOP */
+
+.Body{
+    padding-top: 30px;
+    color: black;
+    
+}
+.Body h2{
+    margin-left: 65px;
+}
+.Titulo>h1{
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 10px 01px #260B0B;
+}
+
+
+
+/* DESCRIPCION DESCRIPCION DESCRIPCION DESCRIPCION DESCRIPCION DESCRIPCION DESCRIPCION DESCRIPCION DESCRIPCION */
+
+.Body-div{
+    width: 100%;
+    display: flex;
+    
+    color: black;
+}
+.Cuerpo{
+    width: 65%;
+    margin: 0 0 0 65px;
+    padding-right: 65px;
+}
+.Cuerpo p{
+    font-size: large;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* TABLA TABLA TABLA TABLA TABLA TABLA TABLA TABLA TABLA TABLA TABLA TABLA TABLA TABLA TABLA TABLA TABLA TABLA */
+table{
+    width: 35%;
+    padding: 8px;
+}
+.tabla-der{
+    box-shadow: -10px 0px 50px 1px rgb(108, 107, 107);
+    border-radius: 8px;
+    margin-right: 30px;
+}
+thead td{
+    color: #ebf3e9;
+    text-align: center;
+    font-size: large;
+    font-weight:bolder;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+tbody tr{ border-bottom: solid #dad3d3 1px;}
+.tab-b{
+    font-weight:900;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.frutos{background-color: #3f2750;}
+.clanes{background-color: #13401A}
+.lobos{background-color: #260B0B;}
+
+/* COMPARTIR COMPARTIR COMPARTIR COMPARTIR COMPARTIR COMPARTIR COMPARTIR COMPARTIR COMPARTIR COMPARTIR COMPARTIR COMPARTIR */
+.Compartir-comprar{
+    display: flex;
+    width: 95vw;
+    margin-left: 15px;
+}
+.Compartir{
+    width: 72%;
+}
+.Compartir-Vacio{
+    width: 70%;
+    display: flex;
+    height: 45px;
+}
+.preview-txt{
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    width: 50%;
+    background-color: black;
+    color: white;
+    border: solid #dad3d3;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.preview-link{
+    width: 50%;
+    padding-left: 1.5%;
+    padding-top: 1%;
+    border: solid #dad3d3;
+    background-color: black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+}
+.Compartir-Lleno{
+    background-color: black;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-right: 60PX;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+.Compartir-Lleno >div>b>p{
+    padding-top: 4px;
+    padding-left: 10px;
+    font-weight: 900;
+    color: #ffffff;
+    width: 25%;
+    text-align: center;
+}
+.Comp-fb{
+    background-color: #4267B2;
+    border: solid #4267B2 1px;
+    color: white;
+    border-radius: 10px;
+    padding: 4px 10px 3px;
+    text-decoration: none;
+    width: 25%;
+}
+.Comp-fb:hover{
+    background-color: white;
+    border: solid #4267B2 1px;
+    color: #4267B2;
+}
+.Comp-x{
+    background-color: #1DA1F2;
+    border: solid #1DA1F2 1px;
+    color: white;
+    border-radius: 10px;
+    padding: 4px 10px 3px;
+    text-decoration: none;
+    width: 25%;
+}
+.Comp-x:hover{
+    background-color: white;
+    border: solid #1DA1F2 1px;
+    color: #4267B2;}
+
+.Comp-wa{
+    background-color: #25D366;
+    border: solid #25D366 1px;
+    color: white;
+    border-radius: 10px;
+    padding: 4px 10px 3px;
+    text-decoration: none;
+    width: 25%;
+}
+.Comp-wa:hover{
+    background-color: white;
+    border: solid #25D366 1px;
+    color: #0e371d;}
+
+/* COMPRAR COMPRAR COMPRAR COMPRAR COMPRAR COMPRAR COMPRAR COMPRAR COMPRAR COMPRAR COMPRAR COMPRAR COMPRAR COMPRAR */
+.Comprar{
+    width: 28%;
+    display: flex;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Comprar-H2{
+    background-color: black;
+    color: #eef4ed;
+    width: 100%;   
+    border-radius: 20px;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    transition: .2s;
+    font-size: medium;
+    
+}
+.Comprar-H2 a{
+    text-decoration: none;
+    color: #eef4ed;
+    margin-left: -50px;
+    height: 50px;
+    transition: .2s;
+    font-size: medium;
+    
+  
+}
+.Comprar-H2 a:hover,
+.Comprar-H2:hover{
+    
+    background-color: rgb(97, 61, 61);
+}
+
+/* BODY INFERIOR BODY INFERIOR BODY INFERIOR BODY INFERIOR BODY INFERIOR BODY INFERIOR BODY INFERIOR BODY INFERIOR BODY INFERIOR */
+.Body_Inf{
+    border-bottom: 3px solid transparent;
+}
+.gradient{
+    border-image: linear-gradient(to right, #FD5657, #00B292) 1;
+}
+.Body_Inf2{
+    border-bottom: 3px solid transparent;
+}
+.grad2{
+    border-image: linear-gradient(to right, #00B292 , #FD5657) 1;
+}
+
+/* OTROS TITULOS OTROS TITULOS OTROS TITULOS OTROS TITULOS OTROS TITULOS OTROS TITULOS OTROS TITULOS OTROS TITULOS OTROS TITULOS */
+
+.Otros-Titulos{
+    margin: 30px;
+}
+.Otros-Titulos Img{
+    padding: 10px;
+    margin-right: 20px;
+    box-shadow: 6px 10px 50px 6px rgb(170, 169, 169) ;
+    transition: .2s;
+}
+.Otros-Titulos Img:hover{
+    transform: scale(1.1);
+}
+
+/* CONTENIDO RELACIONADO CONTENIDO RELACIONADO CONTENIDO RELACIONADO CONTENIDO RELACIONADO CONTENIDO RELACIONADO CONTENIDO RELACIONADO*/
+
+.Cont-Relac{
+    border-bottom: solid 3px #FD5657;
+    color: black;
+}
+.Relacionados-Titulo{color: black;
+margin-left: 65px;}
+
+.tupacmusic,
+.ferialibro,
+.booktrailer{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    padding: 10px;
+    color: black;
+}
+.tupacmusic p,
+.ferialibro p,
+.booktrailer p{
+    padding-left: 20px;
+    font-size: large;
+}
+.tupacmusic Img,
+.ferialibro Img,
+.booktrailer Img{
+    box-shadow: 6px 10px 50px 6px rgb(122, 120, 120) ;
+    transition: .2s;
+}
+.tupacmusic Img:hover,
+.ferialibro Img:hover,
+.booktrailer Img:hover{
+    transform: scale(1.1);
+}
+
+/* FOOTER REDES */
+.footer-sup-redes{
+    padding: 10px 10px 0 0;
+    font-family: 'ionicons';
+    font-size: 40px;
+    color: #ebf3e9;
+    text-decoration: none;
+    display:inline-block ;
+}
+.footer-sup{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px #FFBD59;
+}
+
+.footer-sup-redes a{
+    vertical-align: middle;
+    padding: 4px;
+    background-color: black;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.footer-sup-redes >.Facebook::after{
+    color: #ebf3e9;
+    background-color: black;
+    padding: 5px;
+    content: '\f236';
+    border-radius: 50px;
+}
+
+.footer-sup-redes >.Instagram::after{
+    color: #ebf3e9;
+    background-color: black;
+    padding: 5px;
+    content: '\f23e';
+    border-radius: 50px;
+}
+
+.footer-sup-redes >.Mail::after{
+    color: #ebf3e9;
+    background-color: black;
+    padding: 5px;
+    content: '\f145';
+    border-radius: 50px;
+}
+
+h4{color: black;
+padding-left: 10px;}
+
+
+
+/* DISPLAY CELULAR */
+@media (min-width: 768px){
+    .celular{display: none;}
+}
+@media (max-width: 767px){
+    .desktop{display: none;}
+    .Body{
+        margin-top: -115%;
+        width: 95vw;
+        padding-left: 1%;
+    }
+    .Body-div{
+      display: block;
+    }
+    .Cuerpo{
+        width: 95vw;
+        margin: 5px 20px 10px 20px;
+        padding-right: 15px;
+    }
+    table{
+        width: 95vw;
+        
+    }
+    .tabla-der{
+        width: 95vw;
+        text-align: center;
+        margin: 0 0 20px 15px;
+        
+    }
+    tbody td b p{
+        text-align: right;
+        padding-right: 5%;
+    }
+    tbody td p{
+        text-align: left;
+        padding-left: 5%;
+    }
+    tbody td a img{
+        justify-self:left ;
+    }
+    .Compartir-comprar{
+        width: 95vw;
+        display: block;
+    }
+    .Compartir{
+        width: 100%;
+        display: block;
+    }
+    .Compartir-Vacio{
+        width: 100%;
+        margin: 0 15px 0 0;
+    }
+    .preview-link,
+    .preview-txt{
+        width: 50%;
+        font-size: small;
+    }
+    .preview-link img{
+        width: 45%;
+    }
+    .Compartir-Lleno{
+        width: 100%;
+        margin: 5px 15px 0 0;
+    }
+    .Comprar{
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+    .Comprar-Vacio{display: none;}
+    .Comprar-H2{
+        width: 100%;
+    }
+    .footer-sup-redes{
+        padding: 10px 10px 0 0;
+        font-family: 'ionicons';
+        font-size: 40px;
+        color: #ebf3e9;
+        text-decoration: none;
+         width: 50%;
+    }
+    .footer-sup-img{
+        width: 50%;
+    }
+    .footer-sup{
+        display: flex;
+        padding-bottom: 10px;
+    }
+      
+  }

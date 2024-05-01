@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    background-color: #eef4ed;
+    color: black;
+    max-width: 1500px;
+    
+}
+/* DISPLAY CELULAR */
+@media (max-width: 767px){
+    .Body{
+        margin-top: -115%;
+        width: 95vw;
+        padding-left: 1%;
+    }
+    .Slider-cel{
+        z-index: 1;
+    }
+    .footer-sup-redes{
+        padding: 10px 10px 0 0;
+        font-family: 'ionicons';
+        font-size: 40px;
+        color: #ebf3e9;
+        text-decoration: none;
+         width: 50%;
+    }
+    .footer-sup-img{
+        width: 50%;
+    }
+    .footer-sup{
+        display: flex;
+        padding-bottom: 10px;
+    }
+    .desktop{display: none;}
+    .tablet{display: none;}
+    
+}
+/* DISPLAY DESKTOP */
+@media (min-width: 768px){
+    .tablet{display: none;}
+    .celular{display: none;}
+}
+.celular>h1{color: black;}
+
+
+/* SLIDER DESKTOP*/
+.Slider{
+    height: 100vh;
+    display: flex;
+    margin-top: -7%;
+    justify-content:center;
+    vertical-align: top;
+    padding: 20px;
+}
+.slider-section img{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 10px;
+}
+.container-carrousel{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: #e0e0e0;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 66);
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.carrouseles{
+    width: 300%;
+    height: 100%;
+    display: flex;
+    
+    /* Si quisiera poner 4 imagenes, el width es 400% y asi. Abajo, el width es 100/4 */
+    
+}
+.slider-section{
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+.btn-left,
+.btn-right{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 2.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: brown;
+    transform: translate(0,-50%);
+    transition: .5s ease;
+    user-select: none;
+}
+.btn-left{
+    left: 10px;
+}
+.btn-right{
+    right: 10px;
+}
+
+.btn-left:hover,
+.btn-right:hover{
+    background-color: grey;
+    color: white;
+}
+/* FIN SLIDER DESKTOP*/
+/* FIN SLIDER DESKTOP*/
+/* FIN SLIDER DESKTOP*/
+
+
+/* SLIDER CEL */
+/* SLIDER CEL */
+/* SLIDER CEL */
+.celular{
+    z-index: 0;
+}
+.Slider-cel{
+    aspect-ratio: 16/9;
+    width: 98%;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    z-index: 1;
+}
+.Slider-cel Img{
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
+    z-index: 1;
+}
+
+.botones-cel{
+    padding: 10px 20px 20px 20px;
+    font-size: 50px;
+    color: #FD5657;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+/* FOOTER REDES */
+.footer-sup-redes{
+    padding: 10px 10px 0 0;
+    font-family: 'ionicons';
+    font-size: 40px;
+    color: #ebf3e9;
+    text-decoration: none;
+    display:inline-block ;
+}
+.footer-sup{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px #FFBD59;
+}
+
+.footer-sup-redes a,
+.footer-sup-redes-cel a{
+    vertical-align: middle;
+    padding: 4px;
+    background-color: black;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.footer-sup-redes >.Facebook::after,
+.footer-sup-redes-cel >.Facebook::after{
+    color: #ebf3e9;
+    background-color: black;
+    padding: 5px;
+    content: '\f236';
+    border-radius: 50px;
+}
+
+.footer-sup-redes >.Instagram::after,
+.footer-sup-redes-cel >.Instagram::after{
+    color: #ebf3e9;
+    background-color: black;
+    padding: 5px;
+    content: '\f23e';
+    border-radius: 50px;
+}
+
+.footer-sup-redes >.Mail::after,
+.footer-sup-redes-cel >.Mail::after{
+    color: #ebf3e9;
+    background-color: black;
+    padding: 5px;
+    content: '\f145';
+    border-radius: 50px;
+}
+
+.footer-sup-redes-cel{
+    padding: 10px 10px 0 0;
+    font-family: 'ionicons';
+    font-size: 40px;
+    color: #ebf3e9;
+    text-decoration: none;
+     width: 50%;
+}
+.footer-sup-img-cel{
+    width: 50%;
+}
+.footer-sup-cel{
+    display: flex;
+}
+
+
+
+h4{color: black;
+padding-left: 10px;}
+
+
+
